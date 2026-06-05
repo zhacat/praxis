@@ -1,0 +1,146 @@
+h1{
+  color: #ff2121;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+}
+
+h2{
+  color: red;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 30px;
+}
+
+h3{
+  color: green;
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 20px;
+}
+
+body {
+  background-color: #FFFFFF;
+  
+  color: black;
+  font-family: "Times New Roman", "Arial", "Baskerville";
+  font-size: 17px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 0;
+  min-height: 100vh; 
+  padding: 80px;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  }
+  
+.max-box {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  padding: 20px;
+  background-image: url('pinktexture.jpg');
+  background-repeat: repeat;
+  
+  border: 2px solid red;
+  text-align: center;
+  }
+
+.left-text{
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  text-align: left;
+}
+
+.button-link{
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #d6cfc7;
+  border: 6px outset #ababab;
+  border-radius: 0;
+  text-align: center;
+}
+
+/*This is the border used for the title*/
+.bubble-border{
+  display: inline-block;
+  padding: 0px 10px;
+  max-width: fit-content;
+  background-color: #ffff00;
+  border: 10px ridge #ff00ff;
+  border-radius: 1px;
+  text-align: center;
+}
+
+/*This is the border used for my art*/
+.my-art{
+  display: inline-block;
+  padding: 20px;
+  border: 5px dotted yellow;
+  border-radius: 0px;
+  }
+
+/*Navigation Bar*/
+.sidebar {
+    width: 140px;
+
+    background: #82dcff;
+    border: 3px dashed #006f9c;
+
+    padding: 15px;
+
+    position: fixed;
+    left: 30px;
+    top: 30px;
+}
+
+.sidebar a {
+    display: block;
+
+    color: red;
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+    
+    border: 3px dotted #FFFFFF;
+}
+
+.sidebar h2 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/*Text colour presets*/
+.pink{
+  color: #ff00ff;
+}
+
+.red{
+  color: #ff2121;
+}
+
+.blue{
+  color: blue;
+}
+
+.black{
+  color: black;
+}
