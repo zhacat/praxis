@@ -15,7 +15,7 @@ h2{
 h3{
   color: green;
   font-family: "Comic Sans MS", "Comic Sans";
-  font-size: 20px;
+  font-size: 25px;
 }
 
 body {
@@ -32,7 +32,12 @@ body {
   margin: 0;
   min-height: 100vh; 
   padding: 80px;
+  cursor: url('arrow.png'), auto;
 }
+
+a:hover{
+  cursor: url('pointer.png'), pointer;
+  }
 
 .page{
   display: flex;
@@ -113,7 +118,7 @@ body {
     
     margin-bottom: 10px;
     
-    border: 3px dotted #FFFFFF;
+    border: 3px dotted black;
 }
 
 .sidebar h2 {
